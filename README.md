@@ -1,5 +1,7 @@
 ﻿# Utilização de chatbots como ferramentas de estudo para alunos do curso de Fisioterapia da UFSC - Campus Araranguá
 
+Alunos: Guilherme da Silva Trajano e Luan Daniel de Oliveira Melo
+
 ## Introdução e Objetivos
 
 Este projeto foi desenvolvido como uma parte do trabalho da disciplina de Projeto de Sistemas Ubíquos e Embarcados do curso de Engenharia de Computação e em parceria com alunos e professores do curso de Fisioterapia. 
