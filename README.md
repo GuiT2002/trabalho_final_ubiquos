@@ -16,7 +16,9 @@ A interface do software está apresentada na imagem acima.
 
 - Já o campo "Estúdio" apresenta diversos recursos que permitem ao usuário criar, com base nos arquivos definidos como contexto e no próprio histórico de conversação, novos materiais, indo desde criação personalizada de resumos em áudio e vídeo, que permitem ao usuário definir características muito específicas de como eles devem ser criados (como idioma, tempo de duração, um assunto específico como o único a ser tratado, etc.), até mesmo a pequenos testes que podem ser personalizados à vontade do usuário (desde o número de questões até mesmo à estrutura das respostas). 
 
+<img width="1363" height="601" alt="image" src="https://github.com/user-attachments/assets/0e998cbd-4595-4927-b110-7ece4b6c004e" />
 
+O campo apresentado acima possui uma das funcionalidades mais importantes para a utilização neste projeto, que é a de alteração do prompt de sistema. Ele permite a um usuário com acesso de editor guiar o modelo em suas respostas, estabelecendo regras que devem seguidas e estruturas específicas das respostas. 
 
 ### Objetivos
 
