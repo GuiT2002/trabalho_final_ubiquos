@@ -2,7 +2,11 @@
 
 ## Introdução e Objetivos
 
-Este projeto foi desenvolvido como uma parte do trabalho da disciplina de Projeto de Sistemas Ubíquos e Embarcados do curso de Engenharia de Computação e em parceria com alunos e professores do curso de Fisioterapia. A utilização de modelos de inteligência artificial tem ganhado muita força nos últimos anos, e cada vez mais pesquisas têm surgido sobre possibilidade destas ferramentas serem utilizadas para auxiliar alunos em seus estudos. Um dos softwares mais utilizados recentemente é o NotebookLM (https://notebooklm.google.com/), desenvolvido pela Google. Ele fornece uma interface de conversação entre usuários humanos e o modelo de IA (um LLM) que está rodando por trás. A plataforma permite aos usuários adicionar PDFs (como artigos científicos), gerar resumos em áudio e vídeo, testes, dentre outras funcionalidades. Tudo isso torna essa ferramenta bastante promissora para ser utilizada como suporte aos estudos de alunos da graduação. Dessa forma, essa plataforma foi apresentada e explicada a colaboradores do curso de Fisioterapia da UFSC - Campus Araranguá que visam compreender os impactos que a utilização de tais ferramentas tem no desemepenho acadêmico de seus alunos. Além disso, foram também apresentadas técnicas de engenharia de prompt para que os alunos obtenham o melhor desemepenho do chatbot. 
+Este projeto foi desenvolvido como uma parte do trabalho da disciplina de Projeto de Sistemas Ubíquos e Embarcados do curso de Engenharia de Computação e em parceria com alunos e professores do curso de Fisioterapia. 
+
+A utilização de modelos de inteligência artificial tem ganhado muita força nos últimos anos, e cada vez mais pesquisas têm surgido sobre possibilidade destas ferramentas serem utilizadas para auxiliar alunos em seus estudos. Um dos softwares mais utilizados recentemente é o NotebookLM (https://notebooklm.google.com/), desenvolvido pela Google. Ele fornece uma interface de conversação entre usuários humanos e o modelo de IA (um LLM) que está rodando por trás. A plataforma permite aos usuários adicionar PDFs (como artigos científicos), gerar resumos em áudio e vídeo, testes, dentre outras funcionalidades. Tudo isso torna essa ferramenta bastante promissora para ser utilizada como suporte aos estudos de alunos da graduação. 
+
+Dessa forma, essa plataforma foi apresentada e explicada a colaboradores do curso de Fisioterapia da UFSC - Campus Araranguá que visam compreender os impactos que a utilização de tais ferramentas tem no desemepenho acadêmico de seus alunos. Além disso, foram também apresentadas técnicas de engenharia de prompt para que os alunos obtenham o melhor desemepenho do chatbot. 
 
 ## Configuração do Software
 
@@ -38,7 +42,22 @@ Uma das limitações da ferramenta é o limite máximo de caracteres para o uso 
 
 >Os tópicos devem ser explicados um de cada vez, iniciando pela “Definição de dor segundo a IASP” e seguindo fielmente as regras de condução descritas, indo para o próximo tópico apenas após o aluno dizer que está pronto.
 
+Já a segunda parte, que contém as regras de condução, foram definidas e ajustadas para estarem no prompt do sistema. Seria ela:
 
+>Regras de condução: 
+>Cada tópico deve ter no máximo 3-6 parágrafos. 
+>Mantenha uma linguagem acessível, mas sem perder o rigor científico. 
+>Aponte e corrija equívocos comuns dos estudantes.
+>Finalize com 2 perguntas de checagem de compreensão.
+>Adapte o nível da explicação conforme as respostas dos estudantes. Se eles errarem nas questões, volte ao ponto em que houve confusão e explique novamente com outro exemplo.
+>Só avance para o próximo tópico se o aluno responder que está pronto.
 
-### Futuras Melhorias e Iterações
+Dessa forma, nós guiamos o modelo para responder como os colaboradores desejam, contornando as limitações da plataforma.
 
+Porém, um dos problemas apresentados foi relacionado ao modelo não realizar a checagem da veracidade da resposta do aluno ao final de cada conteúdo e simplesmente passar para o próximo. Para solucionar isso, foi necessário alterar as regras de condução no prompt e exigir explicitamente a verificação das respostas do aluno antes de prosseguir. 
+
+### Considerações Finais
+
+A plataforma apresentada e explicada teve grande aceitação pelo professor responsável pelo projeto e pelos seus alunos que iriam desenvolver os trabalhos em cima dela com os alunos da graduação. A capacidade de adicionar um número muito grande de fontes ao software chamou bastante atenção, e a possibilidade de gerar resumos em áudio e vídeo com fluxo e coerência totalmente naturais, além de testes personalizados e outros materiais de estudo foi bastante elogiada pelo colaboradores. 
+
+Além disso, a engenharia de prompt se mostrou eficaz, onde nos foram apresentadas dúvidas com relação à formulação dos prompts e estas foram solucionadas utilizando técnicas como as apresentadas acima. 
