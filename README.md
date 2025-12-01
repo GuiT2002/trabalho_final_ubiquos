@@ -54,7 +54,7 @@ Já a segunda parte, que contém as regras de condução, foram definidas e ajus
 
 Dessa forma, nós guiamos o modelo para responder como os colaboradores desejam, contornando as limitações da plataforma.
 
-Porém, um dos problemas apresentados foi relacionado ao modelo não realizar a checagem da veracidade da resposta do aluno ao final de cada conteúdo e simplesmente passar para o próximo. Para solucionar isso, foi necessário alterar as regras de condução no prompt e exigir explicitamente a verificação das respostas do aluno antes de prosseguir. 
+Porém, um dos problemas apresentados foi relacionado ao modelo não realizar a checagem da veracidade da resposta do aluno ao final de cada conteúdo e simplesmente passar a explicar o próximo tema. Para solucionar isso, foi necessário alterar as regras de condução no prompt e exigir explicitamente a verificação das respostas do aluno antes de prosseguir. 
 
 ### Considerações Finais
 
